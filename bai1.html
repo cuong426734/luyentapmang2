@@ -5,6 +5,20 @@
     <title>Title</title>
 </head>
 <body>
-
+<script>
+    let a = [
+        [1, 2, 1, 24],
+        [8, 11, 9, 4],
+        [7, 0, 7, 27],
+        [7, 4, 28, 14],
+        [3, 10, 26, 7]
+    ];
+    for (let index in a) {
+        document.write("Hàng: " + index + "<br>");
+        for (let value of a[index]) {
+            document.write(value + "<br>");
+        }
+    }
+</script>
 </body>
 </html>
